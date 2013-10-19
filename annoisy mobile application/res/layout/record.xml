@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical" >
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical" android:id="@+id/linearLayout1" android:layout_alignParentRight="true" android:layout_alignParentLeft="true">
+        <EditText android:text="Loud Music  (0db)" android:layout_width="fill_parent" android:id="@+id/EditText01" android:editable="false" android:layout_height="wrap_content"></EditText>
+        <SeekBar android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/SeekBar02" android:thumb="@drawable/sliderbutton" android:progressDrawable="@drawable/slider" android:max="150"></SeekBar>
+        <EditText android:text="Construction  (0db)" android:layout_width="fill_parent" android:id="@+id/EditText02" android:editable="false" android:layout_height="wrap_content"></EditText>
+        <SeekBar android:layout_width="fill_parent" android:id="@+id/SeekBar01" android:layout_height="wrap_content" android:thumb="@drawable/sliderbutton" android:progressDrawable="@drawable/slider" android:max="150"></SeekBar>
+        <EditText android:text="Traffic  (0db)" android:layout_width="fill_parent" android:id="@+id/EditText03" android:editable="false" android:layout_height="wrap_content" >
+        </EditText>
+        <SeekBar android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/SeekBar03" android:thumb="@drawable/sliderbutton" android:progressDrawable="@drawable/slider" android:max="150"></SeekBar>
+        <EditText android:text="Neighborhood  (0db)" android:layout_width="fill_parent" android:id="@+id/EditText04" android:editable="false" android:layout_height="wrap_content"></EditText>
+        <SeekBar android:layout_width="fill_parent" android:id="@+id/SeekBar04" android:layout_height="wrap_content" android:thumb="@drawable/sliderbutton" android:progressDrawable="@drawable/slider" android:max="150"></SeekBar>
+        <EditText android:text="Airplanes  (0db)" android:layout_width="fill_parent" android:id="@+id/EditText05" android:editable="false" android:layout_height="wrap_content"></EditText>
+        <SeekBar android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/SeekBar05" android:thumb="@drawable/sliderbutton" android:progressDrawable="@drawable/slider" android:max="150"></SeekBar>
+    </LinearLayout>
+
+	<Button
+	    android:id="@+id/button"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/linearLayout1"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="22dp"
+	    android:text="SHARE" />
+        
+</RelativeLayout>
+
